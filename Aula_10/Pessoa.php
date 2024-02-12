@@ -11,8 +11,14 @@ class Pessoa {
         $this->setSexo($sexo);
     }
     
-    public function fazerAniv(){$this->idade + 1;}
+    public function fazerAniv(){$this->setIdade($this->getIdade() + 1);}
     
+    
+    
+    
+    
+    
+    // Setters and Getters
     public function setNome($nome): void {
         $this->nome = $nome;
     }
