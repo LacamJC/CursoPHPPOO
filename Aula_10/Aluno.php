@@ -15,6 +15,10 @@ class Aluno extends Pessoa{
         $this->setMatr(false);
     }
     
+    public function pagarMensalidade(){
+        echo "Mensalidade de ". $this->getNome() . " Paga";
+    }
+    
     public function getMatr() {
         return $this->matr;
     }
